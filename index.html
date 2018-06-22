@@ -6,12 +6,14 @@
     <style>
       body {
         font-family: 'Roboto', serif;
-        font-size: 14px;
+        font-size: 16px;
         font-weight: bold;
+        height: 638px;
       }
 
       .container {
         width: 375px;
+        height: 638px;
       }
 
       header {
@@ -29,12 +31,61 @@
       }
 
       .title {
-        margin-left: 90px;
+        margin-left: 80px;
         text-align: center;
         color: white;
       }
 
-      .map {
+      .bus-list {
+        background-color: white;
+        margin-top: -4px;
+        padding-bottom: 5px;
+      }
+
+      .list-color {
+        background-color: #27ae60;
+        color: white;
+        padding: 10px;
+        margin-top: -5px;
+        margin-bottom: 10px;
+
+      }
+
+      .left {
+        float: left;
+        margin-left: 10px;
+      }
+
+      .center {
+        float: none;
+        width: 50%;
+        margin-left: 160px;
+      }
+
+      .right {
+        float: right;
+        margin-right: 10px;
+      }
+
+      .list {
+        color: grey;
+        font-weight: normal;
+        margin-left: -30px;
+        margin-right: 10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+      }
+
+      .center1 {
+        float: none;
+        margin-left: 155px;
+      }
+
+      hr {
+        width: 90%;
+        background: #dadada;
+        height: 1px;
+        border: 0;
       }
     </style>
   </head>
@@ -52,6 +103,100 @@
     <section class="map">
       <img src="../group.jpg">
 
-    <div>Making the Web Beautiful!</div>
+    <section class="bus-list">
+      <ul class="list-color" style="list-style-type:none">
+        <li class="left">
+          <span>Line Name</span>
+        </li>
+        <li class="right">
+          <span>Destination</span>
+        </li>
+        <li class="center">
+          <span>ETA</span>
+        </li>
+      </ul>
+      <ul class="list" style="list-style-type:none">
+        <li class="left" >
+          <span>60</span>
+        </li>
+        <li class="right">
+          <span>Randolph</span>
+        </li>
+        <li class="center1">
+          <span>0 min</span>
+        </li>
+      </ul>
+      <hr>
+      <ul class="list" style="list-style-type:none">
+        <li class="left" >
+          <span>J14</span>
+        </li>
+        <li class="right">
+          <span>103rd</span>
+        </li>
+        <li class="center1">
+          <span>5 min</span>
+        </li>
+      </ul>
+      <hr>
+      <ul class="list" style="list-style-type:none">
+        <li class="left" >
+          <span>124</span>
+        </li>
+        <li class="right">
+          <span>Navy Pier</span>
+        </li>
+        <li class="center1">
+          <span>7 min</span>
+        </li>
+      </ul>
+      <hr>
+      <ul class="list" style="list-style-type:none">
+        <li class="left" >
+          <span>151</span>
+        </li>
+        <li class="right">
+          <span>Devon/Clark</span>
+        </li>
+        <li class="center1">
+          <span>9 min</span>
+        </li>
+      </ul>
+      <hr>
+      <ul class="list" style="list-style-type:none">
+        <li class="left" >
+          <span>20</span>
+        </li>
+        <li class="right">
+          <span>Madison</span>
+        </li>
+        <li class="center1">
+          <span>45 min</span>
+        </li>
+      </ul>
+      <hr>
+      <ul class="list" style="list-style-type:none">
+        <li class="left" >
+          <span>157</span>
+        </li>
+        <li class="right">
+          <span>Streeterville</span>
+        </li>
+        <li class="center1">
+          <span>1 hour</span>
+        </li>
+      </ul>
+      <hr>
+      <ul class="list" style="list-style-type:none">
+        <li class="left" >
+          <span>4</span>
+        </li>
+        <li class="right">
+          <span>Cottage Gr.</span>
+        </li>
+        <li class="center1">
+          <span>1 hour</span>
+        </li>
+      </ul>
   </body>
 </html>
