@@ -1,0 +1,86 @@
+body {
+  font-family: 'Roboto', serif;
+  font-size: 16px;
+  font-weight: bold;
+  height: 638px;
+}
+
+.container {
+  width: 375px;
+  height: 638px;
+}
+
+header {
+  background-color: #27ae60;
+}
+
+nav {
+  padding: 10px;
+}
+
+.fa-angle-left {
+  color: white;
+  margin-left: 5px;
+  font-size: 20px;
+  position: relative;
+
+}
+
+.title {
+  margin-left: 80px;
+  text-align: center;
+  color: white;
+}
+
+.bus-list {
+  background-color: white;
+  margin-top: -4px;
+  padding-bottom: 5px;
+}
+
+.list-color {
+  background-color: #27ae60;
+  color: white;
+  padding: 10px;
+  margin-top: -5px;
+  margin-bottom: 10px;
+
+}
+
+.left {
+  float: left;
+  margin-left: 10px;
+}
+
+.center {
+  float: none;
+  width: 50%;
+  margin-left: 160px;
+}
+
+.right {
+  float: right;
+  margin-right: 10px;
+}
+
+.list {
+  color: grey;
+  font-weight: normal;
+  margin-left: -30px;
+  margin-right: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  line-height: 25px;
+}
+
+.center1 {
+  float: none;
+  margin-left: 155px;
+}
+
+hr {
+  width: 90%;
+  background: #dadada;
+  height: 1px;
+  border: 0;
+}
