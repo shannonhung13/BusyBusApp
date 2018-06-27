@@ -27,7 +27,7 @@ nav {
 }
 
 .title {
-  margin-left: 80px;
+  margin-left: 70px;
   text-align: center;
   color: white;
 }
@@ -36,6 +36,7 @@ nav {
   background-color: white;
   margin-top: -4px;
   padding-bottom: 5px;
+  font-size: 12px;
 }
 
 .list-color {
@@ -44,18 +45,20 @@ nav {
   padding: 10px;
   margin-top: -5px;
   margin-bottom: 10px;
+  list-style-type: none;
 
 }
 
 .left {
   float: left;
   margin-left: 10px;
+  font-weight: bold;
 }
 
 .center {
   float: none;
   width: 50%;
-  margin-left: 160px;
+  margin-left: 150px;
 }
 
 .right {
@@ -66,20 +69,21 @@ nav {
 .list {
   color: grey;
   font-weight: normal;
-  margin-left: -30px;
+  margin-left: -25px;
   margin-right: 10px;
   margin-top: 5px;
   margin-bottom: 5px;
   line-height: 25px;
+  list-style-type: none;
 }
 
 .center1 {
   float: none;
-  margin-left: 155px;
+  margin-left: 130px;
 }
 
 hr {
-  width: 90%;
+  width: 95%;
   background: #dadada;
   height: 1px;
   border: 0;
